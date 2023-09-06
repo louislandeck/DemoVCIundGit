@@ -9,7 +9,9 @@
       <HeaderName />
       <HeaderVersion>0.1</HeaderVersion>
       <Interface><Sections xmlns="http://www.siemens.com/automation/Openness/SW/Interface/v5">
-  <Section Name="Input" />
+  <Section Name="Input">
+    <Member Name="Input" Datatype="Bool" Accessibility="Public" />
+  </Section>
   <Section Name="Output" />
   <Section Name="InOut" />
   <Section Name="Temp" />
